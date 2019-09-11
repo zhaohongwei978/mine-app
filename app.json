@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/member/member",
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,10 +25,16 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/member/member",
         "iconPath": "images/tar-topic.png",
         "selectedIconPath": "images/tar-topic-on.png",
-        "text": "专题"
+        "text": "会员专享"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "images/tar-topic.png",
+        "selectedIconPath": "images/tar-topic-on.png",
+        "text": "订单"
       },
       {
         "pagePath": "pages/mine/mine",
